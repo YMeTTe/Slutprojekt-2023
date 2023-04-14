@@ -3,3 +3,6 @@
 
 2023-03-28
     Fortsättning av syfte och metod i mallen
+
+2023-04-14
+    Påbörjat arbete av den grafiska mallen
