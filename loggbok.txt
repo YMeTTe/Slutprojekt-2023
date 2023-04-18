@@ -6,3 +6,5 @@
 
 2023-04-14
     Påbörjat arbete av den grafiska mallen
+2023-04-18
+    Gjort klart den grafiska mallen samt börjat kolla på inspiration för framtida arbeten
