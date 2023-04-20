@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.wrapper{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 9fr 1fr;
+}
+header{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+nav{
+    background-color: aqua;
+    width: 100%;
+}
+section{
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+article{
+    background-color: salmon;
+    width: 100%;
+}
+aside{
+    background-color: deeppink;
+    width: 100%;
+}
+img{
+
+}
+footer{
+    background-color: chocolate;
+}
