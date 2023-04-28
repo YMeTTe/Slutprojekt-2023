@@ -8,6 +8,11 @@
     Påbörjat arbete av den grafiska mallen
 2023-04-18
     Gjort klart den grafiska mallen samt börjat kolla på inspiration för framtida arbeten
+<<<<<<< HEAD
 
 2023-04-28
     Fortsatt jobb med index.
+=======
+2023-04-22
+    Fortsatt med HTML/CSS för index samt hjälp oliver med grid
+>>>>>>> f6d4da1afcc9ac6fab1f943b6f2c6c6e817db2b3
