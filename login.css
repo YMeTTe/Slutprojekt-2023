@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 .wrapper{
-    width: 60vw;
+    width: 80vw;
 }
 .container{
     background-color: #393E41;
@@ -28,6 +28,7 @@ header{
         flex-direction: row;
         justify-content: start;
         margin-bottom: -5em;
+        height: 10em;
 }
 .logo{
     /*     background-color: red;
@@ -102,6 +103,17 @@ nav{
     color: #393E41;
     background-color: #e6e6e6;
     border-color: #adadad;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    background-color: #393E41;
+    width: 50%;
+    padding: 1em;
+
 }
 footer{
     display: flex;

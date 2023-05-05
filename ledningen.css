@@ -102,14 +102,13 @@ nav{
     border-color: #adadad;
 }
 section{
-/*     background-color: brown;
- */    display: flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 article{
-/*     background-color: salmon;
- */    display: flex;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -122,15 +121,24 @@ article h2 span{
     font-size: 2em;
     margin-left: 1em;
 }
+article p{
+    margin-top: 2em;
+    margin-bottom: -2em;
+}
 aside{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     padding: 2em;
 }
-aside img{
-    width: 80%;
+aside .elian, .kalle{
+    width: 100%;
+    margin: 1em;
+}
+aside span{
+    color: #E7BB41;
+    font-size: 1em;
 }
 footer{
     display: flex;
