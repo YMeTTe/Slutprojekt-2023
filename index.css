@@ -13,30 +13,30 @@ body{
     width: 80vw;
 }
 .container{
-    background-color: #393E41;
     display: grid;
     height: 100vh;
     width: 100%;
     grid-template-rows: 1fr 9fr 1fr;
 }
 header{
-/*     background-color: blue;
- */    display: flex;
+    background-color: #393E41;
+    display: flex;
     flex-direction: row;
     justify-content: start;
     margin-bottom: -5em;
     height: 10em;
+    margin: 1em 0 1em 0;
 }
 .logo{
-/*     background-color: red;
- */    width: 20%;
+    width: 20%;
+    display: flex;
+    align-items: center;
 }
 header .logo img{
     width: 200px;
 }
 nav{
-/*     background-color: aqua;
- */    display: flex;
+    display: flex;
     align-items: center;
     column-gap: 1em;
     justify-content: flex-end;
@@ -102,14 +102,13 @@ nav{
     border-color: #adadad;
 }
 section{
-/*     background-color: brown;
- */    display: flex;
+    background-color: #393E41;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 article{
-/*     background-color: salmon;
- */    display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -133,6 +132,8 @@ aside img{
     width: 80%;
 }
 footer{
+    margin: 1em 0 0 0;
+    background-color: #393E41;
     display: flex;
     align-items: center;
     justify-content: center;

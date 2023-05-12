@@ -1,0 +1,1 @@
+window.alert("Hejsan och välkommen till våran hemsida!")
