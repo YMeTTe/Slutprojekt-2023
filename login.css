@@ -3,9 +3,6 @@
     padding: 0;
 }
 body{
-    
-}
-body{
     color: #D3D0CB;
     background-color: #D3D0CB;
     display: flex;
@@ -114,7 +111,7 @@ section{
 }
 article{
     background-color: #393E41;
-    width: 50%;
+    width: 80%;
     padding: 1em;
 
 }

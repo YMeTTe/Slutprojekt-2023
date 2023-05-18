@@ -18,6 +18,48 @@ body{
     width: 100%;
     grid-template-rows: 1fr 9fr 1fr;
 }
+#popup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90vw;
+    height: 90vh;
+}
+#popup h2{
+    font-size: 4em;
+}
+#popup span{
+    font-size: 2em;
+    color: #E7BB41;
+}
+.popupknapp{
+    position: absolute;
+    top: 1%;
+    left: 97.5%;
+}
+#pop2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 20vw;
+    height: 20vh;
+    visibility: hidden;
+}
+.popupknapp2{
+    position: absolute;
+    top: 3%;
+    left: 90%;
+}
 header{
     background-color: #393E41;
     display: flex;
@@ -115,6 +157,7 @@ article{
 }
 article h2{
     font-size: 3em;
+    margin-left: 1em;
 }
 article h2 span{
     color: #E7BB41;
@@ -129,7 +172,7 @@ aside{
     padding: 2em;
 }
 aside img{
-    width: 80%;
+    width: 100%;
 }
 footer{
     margin: 1em 0 0 0;
