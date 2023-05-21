@@ -17,48 +17,7 @@ body{
     height: 100vh;
     width: 100%;
     grid-template-rows: 1fr 9fr 1fr;
-}
-#popup{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: red;
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90vw;
-    height: 90vh;
-}
-#popup h2{
-    font-size: 4em;
-}
-#popup span{
-    font-size: 2em;
-    color: #E7BB41;
-}
-.popupknapp{
-    position: absolute;
-    top: 1%;
-    left: 97.5%;
-}
-#pop2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: red;
-    position: absolute;
-    top: 40%;
-    left: 40%;
-    width: 20vw;
-    height: 20vh;
-    visibility: hidden;
-}
-.popupknapp2{
-    position: absolute;
-    top: 3%;
-    left: 90%;
+    box-sizing: border-box;
 }
 header{
     background-color: #393E41;
@@ -78,7 +37,7 @@ header .logo img{
     width: 200px;
 }
 nav{
-    display: flex;
+   display: flex;
     align-items: center;
     column-gap: 1em;
     justify-content: flex-end;
@@ -145,43 +104,80 @@ nav{
 }
 section{
     background-color: #393E41;
+  
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
 }
 article{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 article h2{
     font-size: 3em;
-    margin-left: 1em;
 }
 article h2 span{
     color: #E7BB41;
     font-size: 2em;
     margin-left: 1em;
 }
+article p{
+    margin-top: 2em;
+    margin-bottom: -2em;
+}
 aside{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 100%;
     padding: 2em;
+    margin-bottom: -2em;
 }
-aside img{
+aside .elian, .kalle{
     width: 100%;
+    margin: 1em;
+}
+aside span{
+    color: #E7BB41;
+    font-size: 1em;
 }
 footer{
-    margin: 1em 0 0 0;
     background-color: #393E41;
+    margin: 1em 0 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 footer p{
+
     font-size: 0.5em;
 }
+@media screen and (max-width: 640px) {
+    body{
+        width: 640px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .container{
+        width: 640px;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 640px;
+    }
+    section{
+        
+    }
+    article h2{
+        font-size: 2em;
+    }
+    aside{
+        flex-direction: column;
+    }
+}    

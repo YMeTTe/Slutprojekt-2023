@@ -126,4 +126,25 @@ footer{
 footer p{
     font-size: 0.5em;
 }
-    
+@media screen and (max-width: 640px) {
+    body{
+        width: 640px;
+        display: flex;
+        align-items: start;
+        justify-content: start;
+    }
+    .container{
+        width: 640px;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 640px;
+    }
+    section{
+        
+    }
+    article h2{
+        font-size: 2em;
+    }
+}    
